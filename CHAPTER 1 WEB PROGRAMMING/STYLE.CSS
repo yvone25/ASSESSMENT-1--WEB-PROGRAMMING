@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Articles */
+article {
+    background: #ffe4e1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Code Blocks */
+pre {
+    background: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    color: #c7254e;
+}
+
+/* Links */
+a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

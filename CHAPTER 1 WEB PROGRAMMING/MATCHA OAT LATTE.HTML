@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iced Matcha Oat Latte Recipe</title>
+
+    <!-- Importing Bellota Text font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Internal CSS styling for advanced layout and design -->
+    <style>
+        /* Base styling */
+        body {
+            background-color: #77926a; /* Green matcha-like background */
+            color: #dfc1ce;            /* Light pink font color */
+            font-family: 'Bellota Text', sans-serif; /* Bellota Text font */
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr auto;
+            grid-template-areas:
+                "header"
+                "main-content"
+                "footer";
+            height: 100vh;
+            justify-items: center;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Styling for header */
+        header {
+            grid-area: header;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border: 5px solid white; /* White border for images */
+        }
+
+        /* Main content styling */
+        .content {
+            grid-area: main-content;
+            max-width: 1000px;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3); /* Transparent overlay for better readability */
+            border-radius: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .content img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 5px solid white; /* White border for images */
+        }
+
+        h1, h2 {
+            color: #dfc1ce;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 8px;
+        }
+
+        /* Styling for buttons or any interactive element */
+        .button {
+            background-color: #dfc1ce;
+            color: #77926a;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #77926a;
+            color: #dfc1ce;
+        }
+
+        /* Footer */
+        footer {
+            grid-area: footer;
+            padding: 10px;
+            font-size: 0.9rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            color: #dfc1ce;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            body {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "header"
+                    "main-content"
+                    "footer";
+            }
+
+            .content {
+                grid-template-columns: 1fr;
+            }
+
+            header img {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Main content container with images of the latte alongside the recipe -->
+    <div class="content">
+
+        <!-- Recipe Name -->
+        <div>
+            <h1>Iced Matcha Oat Latte</h1>
+
+            <!-- Recipe description -->
+            <p>
+                The Iced Matcha Oat Latte is a refreshing and creamy drink perfect for warm days.
+                Made with high-quality matcha powder, oat milk, and a touch of sweetness, this latte is
+                both energizing and dairy-free.
+            </p>
+        </div>
+
+        <!-- Image section -->
+        <div>
+            <img src="hot-and-iced-matcha-latte-4.jpg" alt="Iced Matcha Oat Latte">
+        </div>
+
+        <!-- Why You’ll Love This Recipe Section -->
+        <div>
+            <h2>Why You’ll Love This Recipe</h2>
+            <p>
+                This Iced Matcha Oat Latte is the perfect balance of earthy and sweet, offering a refreshing
+                boost of energy without the jitters of traditional coffee. The smooth, creamy oat milk complements
+                the rich flavor of matcha, making it an indulgent yet healthy treat. Plus, it's a great option for
+                those looking for a dairy-free and vegan-friendly alternative to regular lattes. Whether you need a
+                pick-me-up in the morning or a cool drink to unwind during the day, this recipe will leave you
+                feeling refreshed and satisfied.
+            </p>
+        </div>
+
+        <!-- Ingredients section -->
+        <div>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>2 teaspoon matcha powder (ceremonial grade)</li>
+                <li>2 tablespoons warm water</li>
+                <li>1 teaspoon sweetener (honey, maple syrup, or sugar) (optional)</li>
+                <li>1 cup oat milk (barista blend recommended)</li>
+                <li>Ice cubes</li>
+            </ul>
+        </div>
+
+        <!-- Image section -->
+        <div>
+            <img src="iced-matcha-latte-ingredients.jpg.webp" alt="Iced Matcha Latte Ingredients">
+        </div>
+
+        <!-- Method section -->
+        <div>
+            <h2>Method</h2>
+            <ol>
+                <li>Sift the matcha powder into a small bowl to remove any clumps.</li>
+                <li>Add warm water and whisk vigorously in a W motion until smooth and frothy.</li>
+                <li>Stir in your sweetener if desired.</li>
+                <li>Fill a glass with ice cubes.</li>
+                <li>Pour oat milk over the ice.</li>
+                <li>Slowly pour the matcha mixture over the oat milk for a layered effect.</li>
+                <li>Stir gently before drinking or enjoy as is!</li>
+            </ol>
+        </div>
+
+
+</body>
+
+</html>
