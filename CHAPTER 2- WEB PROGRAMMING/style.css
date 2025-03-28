@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: 'Fjalla One', sans-serif;  /* Using Fjalla One font */
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+  text-align: center; /* Centers inline elements like text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.navbar a:hover {
+  background-color: #e50914;
+  border-radius: 5px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 100px 20px 20px;
+  background: url('https://upload.wikimedia.org/wikipedia/en/6/61/Scream_%281996_film%29_poster.png') no-repeat center;
+  background-size: cover;
+  width: 100%;
+}
+
+header h1 {
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Section Styling */
+.section {
+  padding: 50px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Dark Red Heading for Sections */
+h2 {
+  color: #8B0000;  /* Dark Red */
+  font-size: 2.5em;  /* Larger font size for headings */
+  margin-bottom: 20px;
+}
+
+/* Centering Movie Image */
+.movie-image {
+  display: block;
+  margin: 20px auto;
+  width: 400px;  /* Increased width for movie image */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Centering Cast & Crew and Characters Section */
+.cast-container, .characters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cast-container img, .characters-container img {
+  width: 250px;  /* Increased width for cast & characters images */
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.cast-container ul, .characters-container ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  width: 100%;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie-image {
+    width: 100%;
+    max-width: 700px;  /* Increased max-width for smaller screens */
+  }
+
+  .cast-container img, .characters-container img {
+    width: 100%;
+    max-width: 400px;  /* Increased max-width for smaller screens */
+  }
+}
