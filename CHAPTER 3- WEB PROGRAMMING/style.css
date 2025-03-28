@@ -1,0 +1,36 @@
+/* General styles for all divs */
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Styling for div#A */
+#A {
+    border: 3px solid purple;
+    box-shadow: 5px 5px 15px red;
+}
+
+/* Styling for div#B */
+#B {
+    border: 3px solid green;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* Styling for div#C */
+#C {
+    border: 3px solid orange;
+    outline: 5px solid blue;
+    box-shadow: 0 0 0 8px green, 0 0 0 16px red;
+}
+
+/* Styling for div#D */
+#D {
+    border: 3px solid darkred;
+    transform: scale(1, 1.2);
+}
