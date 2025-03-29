@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0d0ff;
+    color: #000000;
+}
+
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#welcome {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#welcome h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.festival-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#lineup {
+    width: 30%;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#lineup h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.images img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
